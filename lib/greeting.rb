@@ -4,7 +4,6 @@
 #Capture and store the user's input using the #gets method.
 #Use that captured input to puts out a string that greets
 #the user by name, using string interpolation.
-var name = gets.strip
 def greeting(name)
 puts "Hello #{name}. It's nice to meet you."
 end
